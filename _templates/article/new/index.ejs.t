@@ -8,7 +8,7 @@ emoji: "<%= emoji %>" # 記事のアイコン
 type: "<%= type %>" # 記事のタイプ tech: 技術記事 / idea: アイデア記事
 topics: [] # 記事のトピック ["next.js", "rails", "aws"] など（必須）
 <% if (publication_name) { -%>
-publication_name: "<%= publication_name ? publication_name : '' %>" # Publicationに紐付ける場合は公開するpublication名
+publication_name: "<%= publication_name ? 'lclco' : '' %>" # Publicationに紐付ける場合は公開するpublication名
 <% } -%>
 published: false # 公開するかどうか
 ---
